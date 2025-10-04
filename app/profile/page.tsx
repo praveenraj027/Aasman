@@ -77,7 +77,7 @@ export default function ProfilePage() {
               <div className="flex items-center justify-between">
                 <div className="flex items-center space-x-4">
                   <Avatar className="w-16 h-16 bg-primary">
-                    <AvatarFallback className="text-primary-foreground text-xl font-bold">
+                    <AvatarFallback className="text-white text-xl font-bold">
                       {user.name.charAt(0).toUpperCase()}
                     </AvatarFallback>
                   </Avatar>

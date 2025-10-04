@@ -574,7 +574,7 @@ export default function DashboardPage() {
   
   // Try different possible PDF names in public folder
   const possiblePdfNames = [
-    '/resume.pdf',
+    '/aqi-report.pdf',
     '/report.pdf', 
     '/air-quality-report.pdf',
     '/sample-report.pdf',

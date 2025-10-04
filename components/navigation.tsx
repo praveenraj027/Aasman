@@ -66,7 +66,7 @@ export function Navigation() {
           <div className="hidden md:block">
             {user ? (
               <Link href="/profile">
-                <Button variant="outline" size="sm" className="flex items-center space-x-2 bg-transparent">
+                <Button variant="outline" size="sm" className="flex items-center space-x-2 bg-transparent hover:text-gray-400">
                   <Avatar className="w-6 h-6 bg-primary">
                     <AvatarFallback className="text-white text-xs">
                       {user.name.charAt(0).toUpperCase()}
@@ -76,8 +76,8 @@ export function Navigation() {
                 </Button>
               </Link>
             ) : (
-              <Link href="/login" className="hover:text-white">
-                <Button variant="outline" size="sm">
+              <Link href="/login">
+                <Button variant="outline" size="sm" className="hover:text-gray-400">
                   Get Started
                 </Button>
               </Link>
